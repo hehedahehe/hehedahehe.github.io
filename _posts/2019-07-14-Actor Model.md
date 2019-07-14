@@ -9,5 +9,5 @@ catalog: true 						# 是否归档
 tags:								#标签
     - Actor
 ---
-# 随手记
+##  Actor
 > 将Actor模型与对象模型区分开的一个因素是，Actor对象能够以动态代理方式更新本身的行为。与对象的状态实现代码相比，使用Scala语言和Akka框架更容易实现这种设计模式。通过使用ActorContext对象，Actor对象能够通过接收代码块从一种行为切换到另一种行为。 --《Reactive Messaging Patterns With the Actor Model》
